@@ -1,0 +1,45 @@
+// font size
+$fs-h1: 65px;
+$fs-h2: 50px;
+$fs-sm: 15px;
+$fs-md: 25px;
+$fs-normal: 16px;
+$fs-h5: 18px;
+$fs-h4: 20px;
+$fs-h3: 35px;
+$fs-exsm: 12px;
+
+// fonts
+$ff-bold: 'GraphikLCG-Semibold';
+$ff-reg: 'GraphikLCG-Regular';
+
+// container header
+$container-header-width: 1340px;
+$container-space: 25px;
+
+// colors
+$black: #000000;
+$orange: #FF6336;
+$grey: #E5E5E5;
+$white: #fff;
+$light-orange: #FF9C7D;
+$rose: #FFF8E4;
+$light-blue: #C9E8F2;
+$backbrown: #DABC98;
+$footgrey: #EEEEEE;
+
+// main container
+$container-width: 1290px;
+
+%flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+$maxWidth: 1290;
+
+@mixin adaptiv-font($pcSize, $mobSize) {
+    $addSize: $pcSize - $mobSize;
+    $maxWidth: $maxWidth - 375;
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 375px) / #{$maxWidth}));
+}

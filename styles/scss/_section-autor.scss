@@ -1,0 +1,26 @@
+.section-autor {
+    background-color: $light-blue;
+    padding: 53px 0 105px;
+
+    &__inner {
+        @extend %flex;
+        gap: 45px;
+        justify-content: center;
+    }
+
+    &__title {
+        max-width: 920px;
+        width: 100%;
+    }
+
+    &__h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    &__h6 {
+        font-size: $fs-sm;
+        line-height: 25px;
+        padding: 23px 0 5px;
+    }
+}

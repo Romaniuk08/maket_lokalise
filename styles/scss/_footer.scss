@@ -1,0 +1,99 @@
+.footer {
+    background-color: $footgrey;
+}
+
+.footer-top {
+    @extend %flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 90px 0;
+    border-bottom: 1px solid black;
+
+    &__first {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        width: 100%;
+        margin-right: 50px;
+
+        &__h1 {
+            font-family: $ff-bold;
+            font-size: 40px;
+            line-height: 50px;
+            padding-bottom: 20px;
+        }
+
+        &__img-two {
+            max-width: 80px;
+            padding: 23px 0 11px;
+        }
+
+        &__h4 {
+            font-size: $fs-h4;
+            line-height: 30px;
+            padding-bottom: 15px;
+        }
+
+        a {
+            display: block;
+            font-size: $fs-h4;
+            font-family: $ff-bold;
+            color: $black;
+        }
+    }
+
+    &__second,
+    &__third,
+    &__fourth,
+    &__fifth {
+        max-width: 159px;
+        width: 100%;
+
+        ul {
+            li {
+                font-size: $fs-sm;
+                line-height: 15px;
+                padding-bottom: 15px;
+
+                &:first-child {
+                    font-family: $ff-bold;
+                    font-size: $fs-h4;
+                    line-height: 25px;
+                    padding-bottom: 21px;
+                }
+
+            }
+
+        }
+    }
+}
+
+.footer-botton {
+    @extend %flex;
+    align-items: center;
+    padding: 52px 0 43px;
+    justify-content: space-between;
+    gap: 15px;
+
+    &__logo {
+        @extend %flex;
+        gap: 15px;
+
+        img {
+            padding: 0 3px;
+        }
+
+        p {
+            font-size: $fs-exsm;
+            line-height: 15px;
+            max-width: 300px;
+        }
+    }
+
+    &__txt {
+        max-width: 109px;
+        width: 100%;
+        font-size: $fs-exsm;
+        line-height: 15px;
+    }
+}

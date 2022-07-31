@@ -1,0 +1,41 @@
+.section-bird-back {
+    background-color: $white;
+    font-family: $ff-bold;
+    padding: 160px 0;
+
+    &__inner {
+        @extend %flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        img {
+            max-width: 1023px;
+            width: 100%;
+            padding: 25px 0 32px;
+
+        }
+    }
+
+    &__h1 {
+        @include adaptiv-font(60, 45);
+        max-width: 791px;
+        line-height: 75px;
+        text-align: center;
+    }
+
+    &__h2 {
+        font-family: $ff-reg;
+        font-size: $fs-md;
+        max-width: 539px;
+    }
+
+    &__link {
+        display: block;
+        padding: 0 20px;
+        background: $orange;
+        color: $white;
+        line-height: 60px;
+        font-size: $fs-normal;
+    }
+}

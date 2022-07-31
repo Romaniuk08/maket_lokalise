@@ -1,0 +1,45 @@
+.section-features {
+    background-color: $white;
+    padding: 154px 0;
+    font-family: 'GraphikLCG-Semibold';
+
+    &__title {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 75px;
+    }
+
+    &__h2 {
+        line-height: 60px;
+        @include adaptiv-font(50, 40)
+    }
+
+    &__cards {
+        @extend %flex;
+        align-items: baseline;
+        gap: 15px;
+        justify-content: center;
+
+        li {
+            width: calc(33.33% - 25px);
+            min-width: 250px;
+        }
+    }
+
+    &__h3 {
+        font-size: 30px;
+        line-height: 40px;
+        padding: 49px 0 34px;
+    }
+
+    &__txt {
+        font-family: 'GraphikLCG-Regular';
+        font-size: $fs-h4;
+        line-height: 30px;
+        padding-bottom: 25px;
+    }
+
+    &__link {
+        color: $black;
+    }
+}

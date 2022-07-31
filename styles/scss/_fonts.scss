@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'GraphikLCG-Regular';
+    src: url('../../assets/fonts/GraphikLCG-Regular.eot');
+    src: url('../../assets/fonts/GraphikLCG-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/GraphikLCG-Regular.woff2') format('woff2'),
+        url('../../assets/fonts/GraphikLCG-Regular.woff') format('woff'),
+        url('../../assets/fonts/GraphikLCG-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GraphikLCG-Semibold';
+    src: url('../../assets/fonts/GraphikLCG-Semibold.eot');
+    src: url('../../assets/fonts/GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/GraphikLCG-Semibold.woff2') format('woff2'),
+        url('../../assets/fonts/GraphikLCG-Semibold.woff') format('woff'),
+        url('../../assets/fonts/GraphikLCG-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}

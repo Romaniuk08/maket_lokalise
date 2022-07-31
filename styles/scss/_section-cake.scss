@@ -1,0 +1,51 @@
+.section-cake {
+    background-color: $backbrown;
+    padding: 80px 0 84px;
+
+    &__inner {
+        @extend %flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    &__inner-left {
+        @extend %flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    &__main-txt {
+        max-width: 461px;
+        width: 100%;
+        margin: 0 30px;
+    }
+
+    &__h3 {
+        font-family: $ff-bold;
+        font-size: $fs-h3;
+        line-height: 50px;
+    }
+
+    &__socials {
+        @extend %flex;
+
+        &:nth-of-type(1) {
+            border-left: 2px solid black;
+        }
+
+        ul {
+            padding: 30px 0 30px 70px;
+
+            &>li:nth-child(2) {
+                padding: 20px 0 15px;
+            }
+
+            &>li>p {
+                font-size: $fs-sm;
+                line-height: 25px;
+            }
+        }
+    }
+}

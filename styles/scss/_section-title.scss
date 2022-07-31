@@ -1,0 +1,26 @@
+.section-title {
+    background-color: $light-orange;
+
+    &__txt {
+        max-width: 720px;
+        width: 100%;
+        padding: 100px 0 70px;
+        margin: 0 auto;
+    }
+
+    &__h1 {
+        font-family: 'GraphikLCG-Semibold';
+        font-size: $fs-h2;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    &__logos {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 104px;
+        gap: 10px;
+    }
+}

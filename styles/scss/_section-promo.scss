@@ -1,0 +1,47 @@
+.section-promo {
+    background-color: $rose;
+    padding: 120px 0;
+    font-family: 'GraphikLCG-Semibold';
+
+    &__main-txt {
+        @extend %flex;
+        max-width: 890px;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 79px;
+    }
+
+    &__h2 {
+        font-size: $fs-h2;
+    }
+
+    &__cards {
+        @extend %flex;
+        gap: 15px;
+    }
+
+    &__card {
+        padding: 10px 40px;
+        width: calc(33.33% - 15px);
+        text-align: center;
+        min-width: 250px;
+    }
+
+    &__h3 {
+        font-size: $fs-md;
+        line-height: 35px;
+        padding: 25px 0 20px;
+    }
+
+    &__txt {
+        font-size: $fs-h5;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    &__txt-link {
+        text-decoration: underline;
+        color: black;
+    }
+}
