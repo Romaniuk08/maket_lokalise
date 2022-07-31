@@ -130,7 +130,7 @@ body {
 
 .header-title {
   background-color: #fff;
-  min-height: calc(100vh + 140px);
+  min-height: calc(100vh - 140px);
   display: flex;
   align-items: center;
 }
