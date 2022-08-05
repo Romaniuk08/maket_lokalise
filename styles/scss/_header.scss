@@ -1,6 +1,6 @@
 .header {
-    position: sticky;
-    top: 0%;
+    // position: sticky;
+    // top: 0%;
     padding: 25px 0;
     margin-bottom: 1px;
     background-color: $white;
@@ -49,6 +49,7 @@
         align-items: center;
         flex-wrap: wrap;
         gap: 10px;
+        // margin: 0 auto;
     }
 
     &__right-login-link {

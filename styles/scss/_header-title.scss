@@ -3,6 +3,7 @@
     min-height: calc(100vh + 100px);
     display: flex;
     align-items: center;
+    padding: 20px 0;
 
     &__flex-container {
         display: flex;
@@ -11,10 +12,15 @@
     }
 
     &__inner-left {
-        max-width: 550px;
-        width: 100%;
+        max-width: 640px;
         display: flex;
         flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+
+    &__inner-right {
+        max-width: 640px;
     }
 
     &__h1 {
@@ -48,7 +54,6 @@
     }
 
     &__right-img {
-        max-width: 740px;
         width: 100%;
     }
 }

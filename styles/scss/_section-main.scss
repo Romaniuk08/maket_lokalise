@@ -2,7 +2,7 @@
     background-color: $white;
 
     &__block {
-        padding: 90px 0 150px;
+        padding: 90px 0 100px;
     }
 
     &__block-inner {
@@ -13,8 +13,17 @@
     &__block-txt {
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 100%;
+        max-width: 645px;
         justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    &__block-logo {
+        width: 100%;
+        min-width: 300px;
+        max-width: 645px;
+        margin-bottom: 20px;
     }
 
     &__h2 {
