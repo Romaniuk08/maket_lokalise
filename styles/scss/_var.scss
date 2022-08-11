@@ -38,6 +38,7 @@ $container-width: 1290px;
 
 $maxWidth: 1290;
 
+// mixin
 @mixin adaptiv-font($pcSize, $mobSize) {
     $addSize: $pcSize - $mobSize;
     $maxWidth: $maxWidth - 375;

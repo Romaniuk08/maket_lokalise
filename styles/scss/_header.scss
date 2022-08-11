@@ -2,7 +2,7 @@
     // position: sticky;
     // top: 0%;
     padding: 25px 0;
-    margin-bottom: 1px;
+    border-bottom: 1px solid rgb(204, 204, 204);
     background-color: $white;
 
     &__inner {
@@ -10,18 +10,19 @@
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
+        gap: 10px;
     }
 
     &__left {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
+        gap: 5px 50px;
     }
 
     &__left-logo {
         display: flex;
         align-items: center;
-        margin-right: 50px;
     }
 
 
@@ -29,6 +30,7 @@
         display: flex;
         align-items: center;
         flex-wrap: wrap;
+        gap: 0 50px;
     }
 
     &__left-nav-link {
@@ -37,11 +39,6 @@
         font-size: $fs-sm;
         line-height: 20px;
         color: $black;
-        margin-right: 57px;
-
-        &:nth-of-type(5) {
-            margin-right: 0;
-        }
     }
 
     &__right {

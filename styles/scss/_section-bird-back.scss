@@ -18,7 +18,7 @@
     }
 
     &__h1 {
-        @include adaptiv-font(60, 45);
+        font-size: 65px;
         max-width: 791px;
         line-height: 75px;
         text-align: center;

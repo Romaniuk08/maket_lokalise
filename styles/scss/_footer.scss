@@ -6,8 +6,7 @@
     @extend %flex;
     justify-content: space-between;
     gap: 20px;
-    padding: 90px 0;
-    border-bottom: 1px solid black;
+    padding-top: 90px;
 
     &__first {
         display: flex;
@@ -23,23 +22,7 @@
             padding-bottom: 20px;
         }
 
-        &__img-two {
-            max-width: 80px;
-            padding: 23px 0 11px;
-        }
 
-        &__h4 {
-            font-size: $fs-h4;
-            line-height: 30px;
-            padding-bottom: 15px;
-        }
-
-        a {
-            display: block;
-            font-size: $fs-h4;
-            font-family: $ff-bold;
-            color: $black;
-        }
     }
 
     &__second,
@@ -66,6 +49,32 @@
 
         }
     }
+}
+
+.footer-middle {
+    padding-bottom: 90px;
+    border-bottom: 1px solid black;
+
+
+    &__img {
+        max-width: 80px;
+        padding: 23px 0 11px;
+    }
+
+    &__h4 {
+        font-size: $fs-h4;
+        line-height: 30px;
+        padding-bottom: 15px;
+        max-width: 290px;
+    }
+
+    a {
+        display: block;
+        font-size: $fs-h4;
+        font-family: $ff-bold;
+        color: $black;
+    }
+
 }
 
 .footer-botton {

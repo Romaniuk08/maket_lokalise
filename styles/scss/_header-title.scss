@@ -1,9 +1,9 @@
 .header-title {
     background-color: #fff;
-    min-height: calc(100vh + 100px);
     display: flex;
     align-items: center;
-    padding: 20px 0;
+    padding-top: 129px;
+    padding-bottom: 182px;
 
     &__flex-container {
         display: flex;
@@ -12,7 +12,7 @@
     }
 
     &__inner-left {
-        max-width: 640px;
+        max-width: 540px;
         display: flex;
         flex-direction: column;
         margin-bottom: 20px;
@@ -20,14 +20,14 @@
 
 
     &__inner-right {
-        max-width: 640px;
+        max-width: 750px;
     }
 
     &__h1 {
         // font-size: $fs-h1;
         font-family: 'GraphikLCG-Semibold';
         line-height: 70px;
-        @include adaptiv-font(65, 45)
+        font-size: 65px;
     }
 
     &__h2 {

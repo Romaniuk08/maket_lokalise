@@ -16,3 +16,7 @@ body {
     padding: 0 $container-space;
     margin: 0 auto;
 }
+
+.flex-reverse {
+    flex-direction: row-reverse;
+}
